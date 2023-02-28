@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+@layer components {
+  .card {
+    /* background-color: theme("colors.white"); */
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.2");
+    width: auto;
+  }
+  /* ... */
+}
+
+@layer components {
+  .card-cart {
+    background-color: theme("colors.white");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.4");
+    width: auto;
+  }
+}
